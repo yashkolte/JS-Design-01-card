@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Kenia&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Dancing Script", cursive;
 }
 
 #main {
@@ -18,39 +24,46 @@
 
 #main .card {
   width: 300px;
-  height: 300px;
+  height: 380px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  gap: 10px;
-  background: rgba(255, 255, 255, 0.15);
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.42);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.52);
 }
 
 #main .card img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  scale: 1.1;
+  object-fit: cover;
+  box-shadow: 0 4px 30px rgba(250, 250, 250, 0.1);
 }
 
 #main .card p {
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: rgb(66, 111, 170);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: rgb(221, 66, 66);
 }
+#main .card h1 {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.781);
+}
+
 #main .card h5 {
-    font-size: 0.8rem;
-    font-weight: 500;
-    width: 80%;
-    color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 80%;
+  color: rgb(0, 0, 0);
 }
 
 #main .card button {
